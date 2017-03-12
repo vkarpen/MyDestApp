@@ -19,7 +19,7 @@ namespace WindowsFormsApplication1
         int n = 1;
         private void button1_Click(object sender, EventArgs e)
         {
-            textBox1.Text = "Вы нажали на кнопку " + n + " раз(а)";
+            textBox1.Text = "Вы нажали на кнопку " + n + " раз";
             n = n + 1;
         }
 
