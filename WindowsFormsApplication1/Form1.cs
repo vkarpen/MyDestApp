@@ -16,5 +16,16 @@ namespace WindowsFormsApplication1
         {
             InitializeComponent();
         }
+        int n = 1;
+        private void button1_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = "Вы нажали на кнопку " + n + " раз(а)";
+            n = n + 1;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            textBox1.Text="уууу......у";
+        }
     }
 }
